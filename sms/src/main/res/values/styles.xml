@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
@@ -27,7 +27,7 @@
     <style name="MyDivider">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">0.8dp</item>
-        <item name="android:layout_marginTop">@dimen/text_margin</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
         <item name="android:background">?android:attr/listDivider</item>
     </style>
 
@@ -54,9 +54,9 @@
     </style>
 
     <style name="MyParentType">
-        <item name="android:layout_marginBottom">@dimen/parent_content_no_scroll</item>
-        <item name="android:layout_marginEnd">@dimen/parent_content_no_scroll</item>
-        <item name="android:layout_marginStart">@dimen/parent_content_no_scroll</item>
+        <item name="android:layout_marginBottom">@dimen/def_margin</item>
+        <item name="android:layout_marginRight">@dimen/def_margin</item>
+        <item name="android:layout_marginLeft">@dimen/def_margin</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">0dp</item>
         <item name="android:layout_weight">1</item>
@@ -64,8 +64,8 @@
     </style>
 
     <style name="MyParentType.List">
-        <item name="android:layout_marginStart">0dp</item>
-        <item name="android:layout_marginEnd">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
         <item name="android:layout_marginTop">0dp</item>
         <item name="android:layout_marginBottom">0dp</item>
         <item name="android:layout_width">match_parent</item>
@@ -73,11 +73,15 @@
         <item name="android:layout_weight">1</item>
     </style>
 
+    <style name="MyParentType.List.Dark" parent="MyParentType.List">
+        <item name="android:background">@color/white_low</item>
+    </style>
+
     <style name="MyParentTypeCardEdge">
-        <item name="android:padding">@dimen/parent_content_no_scroll_card_edge</item>
-        <item name="android:layout_marginLeft">@dimen/parent_content_no_scroll_card_edge</item>
-        <item name="android:layout_marginRight">@dimen/parent_content_no_scroll_card_edge</item>
-        <item name="android:layout_marginBottom">@dimen/parent_content_no_scroll_card_edge</item>
+        <item name="android:padding">@dimen/def_margin</item>
+        <item name="android:layout_marginLeft">@dimen/def_margin</item>
+        <item name="android:layout_marginRight">@dimen/def_margin</item>
+        <item name="android:layout_marginBottom">@dimen/def_margin</item>
         <item name="android:background">@drawable/mygzn_card_edge</item>
         <item name="android:orientation">vertical</item>
     </style>
@@ -110,16 +114,17 @@
     </style>
 
     <style name="MyCostumToolbarImage">
-        <item name="android:backgroundTint">@android:color/transparent</item>
+        <item name="android:backgroundTint" tools:targetApi="lollipop">@android:color/transparent
+        </item>
         <item name="android:layout_width">24dp</item>
         <item name="android:layout_height">24dp</item>
-        <item name="android:layout_marginStart">@dimen/text_margin</item>
-        <item name="android:layout_marginTop">@dimen/text_margin</item>
-        <item name="android:layout_marginBottom">@dimen/text_margin</item>
+        <item name="android:layout_marginLeft">@dimen/space</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
+        <item name="android:layout_marginBottom">@dimen/space</item>
     </style>
 
     <style name="MyCostumToolbarTitle" parent="BaseTextView.Bold">
-        <item name="android:textAlignment">center</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">center</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:alpha">1</item>
@@ -127,31 +132,32 @@
         <item name="android:textColor">@color/text_content</item>
         <item name="android:layout_weight">1</item>
         <item name="android:textSize">@dimen/h1</item>
-        <item name="android:layout_marginStart">@dimen/text_margin</item>
-        <item name="android:layout_marginEnd">@dimen/text_margin</item>
-        <item name="android:layout_marginTop">@dimen/text_margin</item>
-        <item name="android:layout_marginBottom">@dimen/text_margin</item>
+        <item name="android:layout_marginLeft">@dimen/space</item>
+        <item name="android:layout_marginRight">@dimen/space</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
+        <item name="android:layout_marginBottom">@dimen/space</item>
     </style>
 
     <style name="MyCostumToolbarMenus" parent="BaseTextView">
-        <item name="android:textAlignment">center</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">center</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:alpha">1</item>
         <item name="android:textColor">@color/text_content</item>
         <item name="android:textSize">@dimen/h4</item>
-        <item name="android:layout_marginStart">@dimen/text_margin</item>
-        <item name="android:layout_marginTop">@dimen/text_margin</item>
-        <item name="android:layout_marginBottom">@dimen/text_margin</item>
+        <item name="android:layout_marginLeft">@dimen/space</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
+        <item name="android:layout_marginBottom">@dimen/space</item>
     </style>
 
     <style name="MyOptionMenu">
-        <item name="android:backgroundTint">@android:color/transparent</item>
+        <item name="android:backgroundTint" tools:targetApi="lollipop">@android:color/transparent
+        </item>
         <item name="android:layout_width">24dp</item>
         <item name="android:layout_height">24dp</item>
-        <item name="android:layout_marginTop">@dimen/text_margin</item>
-        <item name="android:layout_marginBottom">@dimen/text_margin</item>
-        <item name="android:layout_marginEnd">@dimen/text_margin</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
+        <item name="android:layout_marginBottom">@dimen/space</item>
+        <item name="android:layout_marginRight">@dimen/space</item>
     </style>
 
     <style name="MyTopHeader" parent="BaseTextView.Bold">
@@ -166,7 +172,7 @@
     <style name="MyTopHeaderCardEdge">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">40dp</item>
-        <item name="android:layout_marginTop">@dimen/text_margin</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
         <item name="android:background">@drawable/mygzn_background_sub_header</item>
         <item name="android:gravity">center</item>
         <item name="android:textColor">#000</item>
@@ -180,7 +186,35 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/text_header</item>
         <item name="android:textSize">@dimen/h3</item>
-        <item name="android:layout_marginTop">@dimen/text_margin</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
+    </style>
+
+    <style name="MyTextHeader.Small" parent="MyTextHeader">
+        <item name="android:textSize">@dimen/h4</item>
+    </style>
+
+    <style name="MyTextHeader.Small.Grey" parent="MyTextHeader">
+        <item name="android:textSize">@dimen/h4</item>
+        <item name="android:textColor">@color/grey_text</item>
+    </style>
+
+    <style name="MyTextHeader.Small.Grey.Light" parent="MyTextHeader">
+        <item name="android:textSize">@dimen/h4</item>
+        <item name="android:textColor">@color/grey_light_text</item>
+    </style>
+
+    <style name="MyTextHeader.Big" parent="MyTextHeader">
+        <item name="android:textSize">@dimen/h1</item>
+    </style>
+
+    <style name="MyTextHeader.Big.Grey" parent="MyTextHeader">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">@color/grey_text</item>
+    </style>
+
+    <style name="MyTextHeader.Big.Grey.Light" parent="MyTextHeader">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">@color/grey_light_text</item>
     </style>
 
     <style name="MyTextContent" parent="BaseTextView">
@@ -190,9 +224,11 @@
         <item name="android:textColor">@color/text_content</item>
         <item name="android:textSize">@dimen/h3</item>
     </style>
+
     <style name="MyTextContent.Grey" parent="MyTextContent">
         <item name="android:textColor">@color/grey_text</item>
     </style>
+
     <style name="MyTextContent.Grey.Light" parent="MyTextContent">
         <item name="android:textColor">@color/grey_light_text</item>
     </style>
@@ -200,10 +236,12 @@
     <style name="MyTextContent.Small" parent="MyTextContent">
         <item name="android:textSize">@dimen/h4</item>
     </style>
+
     <style name="MyTextContent.Small.Grey" parent="MyTextContent">
         <item name="android:textSize">@dimen/h4</item>
         <item name="android:textColor">@color/grey_text</item>
     </style>
+
     <style name="MyTextContent.Small.Grey.Light" parent="MyTextContent">
         <item name="android:textSize">@dimen/h4</item>
         <item name="android:textColor">@color/grey_light_text</item>
@@ -212,10 +250,12 @@
     <style name="MyTextContent.Small.Very" parent="MyTextContent">
         <item name="android:textSize">@dimen/h5</item>
     </style>
+
     <style name="MyTextContent.Small.Very.Grey" parent="MyTextContent">
         <item name="android:textSize">@dimen/h5</item>
         <item name="android:textColor">@color/grey_text</item>
     </style>
+
     <style name="MyTextContent.Small.Very.Grey.Light" parent="MyTextContent">
         <item name="android:textSize">@dimen/h5</item>
         <item name="android:textColor">@color/grey_light_text</item>
@@ -224,17 +264,29 @@
     <style name="MyTextInputLayoutOutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/space_between_edittext</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
     </style>
 
     <style name="MyTextInputLayoutOutlinedBoxNext" parent="MyTextInputLayoutOutlinedBox">
-        <item name="android:layout_marginTop">@dimen/space_between_edittext</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
+    </style>
+
+    <style name="MyTextInputLayoutOutlinedBox.Note" parent="MyTextInputLayoutOutlinedBox">
+        <item name="counterEnabled">true</item>
+        <item name="counterMaxLength">160</item>
+        <item name="android:focusable">false</item>
     </style>
 
     <style name="MyTextInputLayoutFilledBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/space_between_edittext_filled</item>
+    </style>
+
+    <style name="MyTextInputLayoutFilledBox.Note" parent="MyTextInputLayoutFilledBox">
+        <item name="counterEnabled">true</item>
+        <item name="counterMaxLength">160</item>
+        <item name="android:focusable">false</item>
     </style>
 
     <style name="MyTextInputLayoutFilledBoxNext" parent="MyTextInputLayoutFilledBox">
@@ -244,7 +296,7 @@
     <style name="MyParentButton">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/space_between_edittext</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
     </style>
 
     <style name="MyButtonText" parent="Widget.MaterialComponents.Button.TextButton">
@@ -286,6 +338,12 @@
     <style name="MyTextInputEditText.Disable" parent="MyTextInputEditText">
         <item name="android:editable">false</item>
         <item name="android:inputType">none</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="MyTextInputEditText.Note" parent="MyTextInputEditText">
+        <item name="android:singleLine">false</item>
+        <item name="android:maxLength">160</item>
     </style>
 
     <style name="MyBottomNavigationView" parent="BaseTextView">
@@ -296,7 +354,7 @@
     </style>
 
     <style name="MyParentTakeFoto">
-        <item name="android:layout_marginTop">@dimen/space_take_foto</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
     </style>
 
     <style name="MyParentSpinner">
@@ -308,13 +366,13 @@
     <style name="MyAutoCompleteTextViewFilledBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/space_spinner</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
     </style>
 
     <style name="MyAutoCompleteTextViewOutlineBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/space_spinner</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
     </style>
 
     <style name="MyAutoCompleteTextView" parent="BaseTextView">
@@ -328,13 +386,13 @@
     <style name="MyParentRadioGroup">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/space_radio_group</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
     </style>
 
     <style name="MyRadioGroupText" parent="BaseTextView">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/space_between_radio_button</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
         <item name="android:alpha">1</item>
         <item name="android:textColor">@color/text_content</item>
         <item name="android:textSize">@dimen/h3</item>
@@ -346,7 +404,7 @@
         <item name="android:layout_marginTop">@dimen/space_radio_button</item>
         <item name="android:orientation">vertical</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:paddingStart">-5dp</item>
+        <item name="android:paddingLeft">-5dp</item>
     </style>
 
     <style name="MyRadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
@@ -361,18 +419,41 @@
     <style name="MyTextEditText" parent="BaseTextView">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/space_between_edit_text</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
         <item name="android:alpha">1</item>
         <item name="android:textColor">@color/text_content</item>
         <item name="android:textSize">@dimen/h3</item>
+    </style>
+
+    <style name="MyTextEditText.Disable" parent="BaseTextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
+        <item name="android:alpha">1</item>
+        <item name="android:textColor">@color/text_content</item>
+        <item name="android:textSize">@dimen/h3</item>
+        <item name="android:editable">false</item>
+        <item name="android:inputType">none</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="MyTextEditText.Note" parent="BaseTextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
+        <item name="android:alpha">1</item>
+        <item name="android:textColor">@color/text_content</item>
+        <item name="android:textSize">@dimen/h3</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:maxLength">160</item>
     </style>
 
     <style name="MyEditText" parent="BaseTextView">
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_marginTop">-8dp</item>
-        <item name="android:layout_marginStart">-4dp</item>
-        <item name="android:layout_marginEnd">-4dp</item>
+        <item name="android:layout_marginLeft">-4dp</item>
+        <item name="android:layout_marginRight">-4dp</item>
         <item name="android:textSize">@dimen/h3</item>
         <item name="android:inputType">textImeMultiLine</item>
         <item name="android:lines">3</item>
@@ -383,8 +464,8 @@
     <style name="MyEditText_Horizontal" parent="BaseTextView">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_marginStart">10dp</item>
-        <item name="android:layout_marginEnd">-4dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">-4dp</item>
         <item name="android:textSize">@dimen/h3</item>
         <item name="android:inputType">textImeMultiLine</item>
         <item name="android:lines">3</item>
@@ -395,14 +476,14 @@
     <style name="MyCheckBoxText" parent="BaseTextView">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/space_between_check_box</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
         <item name="android:alpha">1</item>
         <item name="android:textColor">@color/text_content</item>
         <item name="android:textSize">@dimen/h3</item>
     </style>
 
     <style name="MyParentCheckBox">
-        <item name="android:layout_marginTop">@dimen/space_between_check_box</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_width">wrap_content</item>
     </style>
@@ -411,22 +492,22 @@
         <item name="android:layout_height">25dp</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:textSize">@dimen/h3</item>
-        <item name="android:layout_marginStart">-7dp</item>
+        <item name="android:layout_marginLeft">-7dp</item>
     </style>
 
     <style name="MyCheckBox_Horizontal" parent="BaseTextView">
         <item name="android:layout_height">25dp</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:textSize">@dimen/h3</item>
-        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
     </style>
 
     <style name="MyImageFoto">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">10dp</item>
-        <item name="android:paddingStart">8dp</item>
-        <item name="android:paddingEnd">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
         <item name="android:gravity">center</item>
         <item name="android:orientation">vertical</item>
     </style>
@@ -478,5 +559,13 @@
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="ImageEmpty">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_gravity">center</item>
     </style>
 </resources>
