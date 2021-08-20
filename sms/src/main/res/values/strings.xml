@@ -4,4 +4,6 @@
     <string name="error">I am an error</string>
     <string name="take_foto">"Take Foto "</string>
     <string name="required">"*Required "</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
 </resources>

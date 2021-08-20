@@ -20,4 +20,6 @@
     <dimen name="radius">10dp</dimen>
     <dimen name="space">10dp</dimen>
     <dimen name="space_half">5dp</dimen>
+    <dimen name="text_margin">10dp</dimen>
+    <dimen name="space_between_edittext">10dp</dimen>
 </resources>
