@@ -19,9 +19,6 @@
     <color name="divider">#DCDCDC</color>
     <color name="grey_dark">#A9A9A9</color>
 
-    <!--    dialog custom -->
-    <dimen name="text_margin">10dp</dimen>
-
     <color name="overlay_dark_10">#1A000000</color>
     <color name="overlay_dark_20">#33000000</color>
     <color name="overlay_dark_30">#4D000000</color>
