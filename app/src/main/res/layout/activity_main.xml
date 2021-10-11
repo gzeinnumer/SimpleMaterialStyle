@@ -1,18 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/MyCostumToolbarTitle"
+            android:layout_weight="0"
+            android:text="MyCostumToolbarTitle" />
+
+        <TextView
+            style="@style/MyCostumToolbarMenus"
+            android:text="MyCostumToolbarMenus" />
+
+    </LinearLayout>
+
     <TextView
+        style="@style/MyTopHeader"
+        android:text="MyTopHeader" />
+
+    <TextView
+        style="@style/MyTopHeaderCardEdge"
+        android:text="MyTopHeaderCardEdge" />
+
+    <View
+        style="@style/MyDivider"
+        android:layout_margin="@dimen/def_margin_half" />
+
+    <TextView
+        style="@style/MyTextHeader.Small"
+        android:layout_marginTop="0dp"
+        android:text="MyTextHeader.Small" />
+
+    <TextView
+        style="@style/MyTextHeader"
+        android:layout_marginTop="0dp"
+        android:text="MyTextHeader" />
+
+    <TextView
+        style="@style/MyTextHeader.Big"
+        android:layout_marginTop="0dp"
+        android:text="MyTextHeader.Big" />
+
+    <View
+        style="@style/MyDivider"
+        android:layout_margin="@dimen/def_margin_half" />
+
+    <TextView
+        style="@style/MyTextContent.Small.Very"
+        android:text="MyTextContent.Small.Very" />
+
+    <TextView
+        style="@style/MyTextContent.Small"
+        android:text="MyTextContent.Small" />
+
+    <TextView
+        style="@style/MyTextContent"
+        android:text="MyTextContent" />
+
+    <View
+        style="@style/MyDivider"
+        android:layout_margin="@dimen/def_margin_half" />
+
+    <TextView
+        style="@style/MyTextContent.Grey"
+        android:text="MyTextContent.Grey" />
+
+    <TextView
+        style="@style/MyTextContent.Grey.Light"
+        android:text="MyTextContent.Grey.Light" />
+
+    <View
+        style="@style/MyDivider"
+        android:layout_margin="@dimen/def_margin_half" />
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            style="@style/MyTextContent.Small.Grey.Light"
+            android:text="MyTextContent.Small.Grey.Light" />
+
+        <TextView
+            android:id="@+id/tv_nama"
+            style="@style/MyTextContent"
+            android:text="MyTextContent" />
+    </LinearLayout>
+
+    <View
+        style="@style/MyDivider"
+        android:layout_margin="@dimen/def_margin_half" />
+
+    <TextView
+        style="@style/MyTextContent"
+        android:textColor="#F44336"
+        android:text="MyTextContent" />
+
+    <TextView
+        style="@style/MyTextContent"
+        android:textColor="#00C853"
+        android:text="MyTextContent" />
+
+    <TextView
+        style="@style/MyTextContent"
+        android:textColor="#2196F3"
+        android:text="MyTextContent" />
+
+</LinearLayout>
