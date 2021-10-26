@@ -631,7 +631,7 @@
 
     <style name="MyTextContent.Background.GreenLow">
         <item name="android:background">@drawable/shape_green_low</item>
-        <item name="android:textColor">@color/green_500_30</item>
+        <item name="android:textColor">@color/green_A700</item>
     </style>
 
     <style name="MyTextContent.Background.RedLow">
