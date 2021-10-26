@@ -3,7 +3,7 @@
 </h1>
 
 <div align="center">
-    <a><img src="https://img.shields.io/badge/Version-2.2.3-brightgreen.svg?style=flat"></a>
+    <a><img src="https://img.shields.io/badge/Version-2.2.4-brightgreen.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/ID-gzeinnumer-blue.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/Java-Suport-green?logo=java&style=flat"></a>
     <a><img src="https://img.shields.io/badge/kotlin-Suport-green?logo=kotlin&style=flat"></a>
@@ -14,8 +14,9 @@
 
 ---
 
-|![](https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/example1.jpg)|![](https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/example2.jpg)|![](https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/example3.jpg)|
-|--|--|--|
+|![](https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/example1.jpg)|![](https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/example2.jpg)|![](https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/example3.jpg)|![](https://github.com/gzeinnumer/TextInputLayoutStyle/blob/master/preview/preview_1.png)|
+|--|--|--|--|
+|Version 2.2.3|Version 2.2.3|Version 2.2.3|Version 2.2.4|
 
 ---
 # Content List
@@ -1048,6 +1049,8 @@ Preview:
   - Bug Color
 - **2.2.3**
   - Bug Color
+- **2.2.4**
+  - TextInputLayout New Style
 
 ---
 
