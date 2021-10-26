@@ -9,9 +9,9 @@
             <gradient
                 android:type="linear"
                 android:angle="270"
-                android:startColor="#FF6200EE"
-                android:endColor="#8C60CC" />
-            <corners android:radius="10dp" />
+                android:startColor="@color/colorPrimary"
+                android:endColor="@color/colorPrimary" />
+            <corners android:radius="@dimen/radius" />
         </shape>
     </item>
 
@@ -21,8 +21,8 @@
         android:right="1dp"
         android:left="1dp">
         <shape android:shape="rectangle">
-            <solid android:color="#FFFFFF" />
-            <corners android:radius="10dp" />
+            <solid android:color="@color/white" />
+            <corners android:radius="@dimen/radius" />
         </shape>
     </item>
 </layer-list>
