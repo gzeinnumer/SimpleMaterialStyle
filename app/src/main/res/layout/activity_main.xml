@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:background="@color/colorPrimary_30"
+    android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -125,9 +125,18 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/ed_username"
-            style="@style/MyTextInputEditText.Spesial"/>
+            style="@style/MyTextInputEditText.Spesial" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/MyTextInputLayoutOutlinedBox.Spesial.V2"
+        android:layout_margin="@dimen/def_margin"
+        app:endIconMode="clear_text"
+        android:hint="Label">
 
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/MyTextInputEditText.Spesial.V2" />
+
+    </com.google.android.material.textfield.TextInputLayout>
 </LinearLayout>
