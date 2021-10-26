@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:background="@color/colorPrimary_30"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -103,17 +104,30 @@
 
     <TextView
         style="@style/MyTextContent"
-        android:textColor="#F44336"
-        android:text="MyTextContent" />
+        android:text="MyTextContent"
+        android:textColor="#F44336" />
 
     <TextView
         style="@style/MyTextContent"
-        android:textColor="#00C853"
-        android:text="MyTextContent" />
+        android:text="MyTextContent"
+        android:textColor="#00C853" />
 
     <TextView
         style="@style/MyTextContent"
-        android:textColor="#2196F3"
-        android:text="MyTextContent" />
+        android:text="MyTextContent"
+        android:textColor="#2196F3" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ed_username_p"
+        style="@style/MyTextInputLayoutOutlinedBox.Spesial"
+        android:layout_margin="@dimen/def_margin"
+        android:hint="Username">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_username"
+            style="@style/MyTextInputEditText.Spesial"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
 
 </LinearLayout>

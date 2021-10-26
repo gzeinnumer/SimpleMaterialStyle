@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/VIDEO/PEMOGRAMANMOBILE/SimpleMaterialStyle/app/src/main/res/layout/activity_main.xml" value="0.21296296296296297" />
         <entry key="..\:/VIDEO/PEMOGRAMANMOBILE/SimpleMaterialStyle/sms/src/main/res/drawable/background_filled_white_radius_v2.xml" value="0.30925925925925923" />
         <entry key="..\:/VIDEO/PEMOGRAMANMOBILE/SimpleMaterialStyle/sms/src/main/res/drawable/mygzn_background_filled_white_radius.xml" value="0.22870370370370371" />
         <entry key="..\:/VIDEO/PEMOGRAMANMOBILE/SimpleMaterialStyle/sms/src/main/res/drawable/mygzn_background_filled_white_radius_v2.xml" value="0.22870370370370371" />
+        <entry key="..\:/VIDEO/PEMOGRAMANMOBILE/SimpleMaterialStyle/sms/src/main/res/drawable/mygzn_background_filled_white_radius_v3.xml" value="0.19722222222222222" />
+        <entry key="..\:/VIDEO/PEMOGRAMANMOBILE/SimpleMaterialStyle/sms/src/main/res/drawable/mygzn_text_input_edittext.xml" value="0.21481481481481482" />
+        <entry key="..\:/VIDEO/PEMOGRAMANMOBILE/SimpleMaterialStyle/sms/src/main/res/drawable/mygzn_text_input_layout.xml" value="0.4036458333333333" />
         <entry key="..\:/VIDEO/PEMOGRAMANMOBILE/SimpleMaterialStyle/sms/src/main/res/drawable/shape_green_low.xml" value="0.22870370370370371" />
         <entry key="..\:/VIDEO/PEMOGRAMANMOBILE/SimpleMaterialStyle/sms/src/main/res/drawable/shape_red_low.xml" value="0.22870370370370371" />
       </map>

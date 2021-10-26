@@ -655,4 +655,20 @@
         <item name="android:background">@drawable/shape_red_low</item>
         <item name="android:textColor">@color/red_500</item>
     </style>
+
+    <style name="MyTextInputLayoutOutlinedBox.Spesial">
+        <item name="boxBackgroundColor">@android:color/transparent</item>
+        <item name="boxStrokeColor">@android:color/transparent</item>
+        <item name="android:background">@drawable/mygzn_text_input_layout</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="android:textColorHint">@color/mygzn_indicator_text_color</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+    </style>
+
+    <style name="MyTextInputEditText.Spesial">
+        <item name="android:background">@drawable/mygzn_text_input_edittext</item>
+        <item name="android:layout_marginLeft">0.5dp</item>
+        <item name="android:layout_marginRight">0.5dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
 </resources>
