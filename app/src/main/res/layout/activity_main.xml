@@ -139,4 +139,15 @@
             style="@style/MyTextInputEditText.Spesial.V2" />
 
     </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/MyTextInputLayoutOutlinedBox.Spesial.V3"
+        android:layout_margin="@dimen/def_margin"
+        app:endIconMode="clear_text"
+        android:hint="Label">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/MyTextInputEditText.Spesial.V3" />
+
+    </com.google.android.material.textfield.TextInputLayout>
 </LinearLayout>
