@@ -305,6 +305,8 @@
         <item name="android:textAllCaps">false</item>
         <item name="android:layout_height">@dimen/button_height</item>
         <item name="android:layout_width">wrap_content</item>
+        <item name="android:backgroundTint" tools:targetApi="lollipop">@color/white</item>
+        <item name="backgroundTint">@color/white</item>
     </style>
 
     <style name="MyButtonOutlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
@@ -312,6 +314,8 @@
         <item name="android:textAllCaps">false</item>
         <item name="android:layout_height">@dimen/button_height</item>
         <item name="android:layout_width">wrap_content</item>
+        <item name="android:backgroundTint" tools:targetApi="lollipop">@color/white</item>
+        <item name="backgroundTint">@color/white</item>
     </style>
 
     <style name="MyButtonContained">
@@ -601,5 +605,37 @@
         <item name="android:windowMinWidthMinor">80%</item>
         <item name="android:windowEnterAnimation">@anim/slide_up</item>
         <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <style name="MyLinearLayout">
+        <item name="android:padding">@dimen/def_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MyLinearLayout.White">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="MyLinearLayout.White.Rounded">
+        <item name="android:background">@drawable/mygzn_background_filled_white_radius_v2</item>
+    </style>
+
+    <style name="MyTextContent.Background">
+        <item name="android:paddingStart">@dimen/space_half</item>
+        <item name="android:paddingLeft">@dimen/space_half</item>
+        <item name="android:paddingEnd">@dimen/space_half</item>
+        <item name="android:paddingRight">@dimen/space_half</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MyTextContent.Background.GreenLow">
+        <item name="android:background">@drawable/shape_green_low</item>
+        <item name="android:textColor">@color/green_500_30</item>
+    </style>
+
+    <style name="MyTextContent.Background.RedLow">
+        <item name="android:background">@drawable/shape_red_low</item>
+        <item name="android:textColor">@color/red_500</item>
     </style>
 </resources>
