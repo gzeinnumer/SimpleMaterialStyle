@@ -10,7 +10,7 @@
                 android:type="linear"
                 android:angle="270"
                 android:startColor="@color/colorPrimary"
-                android:endColor="@color/colorPrimary" />
+                android:endColor="@android:color/transparent" />
             <corners android:radius="@dimen/radius" />
         </shape>
     </item>
