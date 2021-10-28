@@ -488,6 +488,14 @@
         <item name="android:gravity">top|left</item>
     </style>
 
+    <style name="MyTextEditText.Shape.White">
+        <item name="android:background">@drawable/mygzn_background_filled_white_radius_very</item>
+    </style>
+
+    <style name="MyTextEditText.Shape.Disable.White">
+        <item name="android:background">@drawable/mygzn_background_filled_white_radius_very</item>
+    </style>
+
     <style name="MyEditText_Horizontal" parent="BaseTextView">
         <item name="android:textSize">@dimen/h4</item>
         <item name="android:layout_height">wrap_content</item>
@@ -663,6 +671,7 @@
         <item name="boxStrokeWidth">0dp</item>
         <item name="android:textColorHint">@color/mygzn_indicator_text_color</item>
         <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="hintTextColor">@color/mygzn_indicator_text_color_focused</item>
     </style>
 
     <style name="MyTextInputEditText.Spesial">
@@ -687,8 +696,10 @@
         <item name="boxCornerRadiusTopStart">@dimen/radius</item>
         <item name="boxStrokeWidth">0dp</item>
         <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
         <item name="shapeAppearanceOverlay">@style/Rounded_ShapeAppearanceOverlay.MaterialComponents.TextInputLayout</item>
         <item name="boxStrokeColor">@color/input_text_no_underline</item>
+        <item name="hintTextColor">@color/mygzn_indicator_text_color_focused</item>
     </style>
 
     <style name="MyTextInputEditText.Spesial.V2">
@@ -707,8 +718,10 @@
         <item name="boxCornerRadiusTopStart">@dimen/radius</item>
         <item name="boxStrokeWidth">0dp</item>
         <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
         <item name="shapeAppearanceOverlay">@style/Rounded_ShapeAppearanceOverlay.MaterialComponents.TextInputLayout</item>
         <item name="boxStrokeColor">@color/input_text_no_underline</item>
+        <item name="hintTextColor">@color/mygzn_indicator_text_color_focused</item>
     </style>
 
     <style name="MyTextInputEditText.Spesial.V3">
@@ -727,8 +740,10 @@
         <item name="boxCornerRadiusTopStart">@dimen/radius</item>
         <item name="boxStrokeColor">@color/input_text_no_underline</item>
         <item name="boxStrokeWidth">0dp</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
         <item name="boxStrokeWidthFocused">0dp</item>
         <item name="shapeAppearanceOverlay">@style/Rounded_ShapeAppearanceOverlay.MaterialComponents.TextInputLayout</item>
+        <item name="hintTextColor">@color/mygzn_indicator_text_color_focused</item>
     </style>
 
     <style name="MyAutoCompleteTextView.V2" parent="BaseTextView">
@@ -742,6 +757,7 @@
         <item name="backgroundTint">@android:color/transparent</item>
     </style>
     <style name="MyAutoCompleteTextViewFilledBox.V3" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">
+        <item name="android:layout_marginTop">@dimen/space</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@drawable/mygzn_text_input_edittext_white</item>
@@ -754,6 +770,7 @@
         <item name="boxStrokeWidth">0dp</item>
         <item name="boxStrokeWidthFocused">0dp</item>
         <item name="shapeAppearanceOverlay">@style/Rounded_ShapeAppearanceOverlay.MaterialComponents.TextInputLayout</item>
+        <item name="hintTextColor">@color/mygzn_indicator_text_color_focused</item>
     </style>
 
     <style name="MyAutoCompleteTextView.V3" parent="BaseTextView">
