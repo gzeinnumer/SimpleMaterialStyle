@@ -3,7 +3,7 @@
 </h1>
 
 <div align="center">
-    <a><img src="https://img.shields.io/badge/Version-2.3.1-brightgreen.svg?style=flat"></a>
+    <a><img src="https://img.shields.io/badge/Version-2.3.2-brightgreen.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/ID-gzeinnumer-blue.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/Java-Suport-green?logo=java&style=flat"></a>
     <a><img src="https://img.shields.io/badge/kotlin-Suport-green?logo=kotlin&style=flat"></a>
@@ -16,7 +16,7 @@
 
 |![](https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/example1.jpg)|![](https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/example2.jpg)|![](https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/example3.jpg)|![](https://github.com/gzeinnumer/TextInputLayoutStyle/blob/master/preview/preview_1.png)|
 |--|--|--|--|
-|Version 2.2.3|Version 2.2.3|Version 2.2.3|Version 2.3.0 [ReadMore](https://github.com/gzeinnumer/TextInputLayoutStyle)|
+|Version 2.2.3|Version 2.2.3|Version 2.2.3|Version 2.3.0++ [ReadMore](https://github.com/gzeinnumer/TextInputLayoutStyle)|
 
 ---
 # Content List
@@ -1053,7 +1053,7 @@ Preview:
   - TextInputLayout New Style
 - **2.3.0**
   - TextInputLayout TextAutoComplete New Style
-- **2.3.1**
+- **2.3.2**
   - TextInputLayout Focus Hint Color
 
 ---
