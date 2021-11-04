@@ -3,7 +3,7 @@
 </h1>
 
 <div align="center">
-    <a><img src="https://img.shields.io/badge/Version-2.3.2-brightgreen.svg?style=flat"></a>
+    <a><img src="https://img.shields.io/badge/Version-2.3.3-brightgreen.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/ID-gzeinnumer-blue.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/Java-Suport-green?logo=java&style=flat"></a>
     <a><img src="https://img.shields.io/badge/kotlin-Suport-green?logo=kotlin&style=flat"></a>
@@ -1055,6 +1055,8 @@ Preview:
   - TextInputLayout TextAutoComplete New Style
 - **2.3.2**
   - TextInputLayout Focus Hint Color
+- **2.3.3**
+  - SearchViewDialog 3.1.2
 
 ---
 
