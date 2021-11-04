@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorPrimary_30"
+        android:background="@color/purple_700"
         android:gravity="center"
         android:orientation="vertical"
         tools:context=".MainActivity">
@@ -208,6 +208,18 @@
             <AutoCompleteTextView
                 android:id="@+id/act2"
                 style="@style/MyAutoCompleteTextView.V3" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/MyTextInputLayoutOutlinedBox.Spesial.V3.Search"
+            android:layout_marginLeft="@dimen/def_margin"
+            android:layout_marginTop="@dimen/def_margin"
+            android:layout_marginRight="@dimen/def_margin"
+            android:hint="Label"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText style="@style/MyTextInputEditText.Spesial.V3.Search" />
 
         </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
