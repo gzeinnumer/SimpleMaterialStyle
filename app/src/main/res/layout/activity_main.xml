@@ -14,6 +14,11 @@
         android:orientation="vertical"
         tools:context=".MainActivity">
 
+        <Button
+            android:id="@+id/btn_example1"
+            style="@style/MyButtonContained"
+            android:text="Example1" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
