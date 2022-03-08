@@ -2,7 +2,10 @@
   SimpleMaterialStyle
 </h1>
 
-![](assets/example1.jpg)
+<pre>
+<img src="assets/example1.jpg" width="300"> 
+</pre>
+
 
 
 <div align="center">
