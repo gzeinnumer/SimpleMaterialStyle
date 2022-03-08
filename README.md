@@ -2,12 +2,6 @@
   SimpleMaterialStyle
 </h1>
 
-
-
-<pre>
-![](assets/example1.jpg)
-</pre>
-
 <div align="center">
     <a><img src="https://img.shields.io/badge/Version-2.3.3-brightgreen.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/ID-gzeinnumer-blue.svg?style=flat"></a>
