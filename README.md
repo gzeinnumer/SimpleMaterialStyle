@@ -14,7 +14,7 @@
 
 ---
 
-|![](https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/example1.jpg)|![](https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/example2.jpg)|![](https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/example3.jpg)|![](https://github.com/gzeinnumer/TextInputLayoutStyle/blob/master/preview/preview_1.png)|![](assets/example1.jpg)|
+|![](https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/example1.jpg)|![](https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/example2.jpg)|![](https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/example3.jpg)|![](https://github.com/gzeinnumer/TextInputLayoutStyle/blob/master/preview/preview_1.png)|![](assets/example4.jpg)|
 |--|--|--|--|--|
 |Version 2.2.3|Version 2.2.3|Version 2.2.3|Version 2.3.0++ [ReadMore](https://github.com/gzeinnumer/TextInputLayoutStyle)|TextInputLayout|
 
