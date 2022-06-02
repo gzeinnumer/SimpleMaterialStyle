@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary_30"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/def_margin">
+
+        <TextView
+            style="@style/MyTextContent"
+            android:text="MyTextInputLayoutOutlinedBox" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ed_example1_p"
+            style="@style/MyTextInputLayoutOutlinedBox.Spesial.V1"
+            android:hint="Spesial.V1">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_example1"
+                style="@style/MyTextInputEditText.Spesial.V1" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ed_example12_p"
+            style="@style/MyTextInputLayoutOutlinedBox.Spesial.V1.Grey"
+            android:hint="Spesial.V1.Grey">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_example12"
+                style="@style/MyTextInputEditText.Spesial.V1" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ed_example2_p"
+            style="@style/MyTextInputLayoutOutlinedBox.Spesial.V2"
+            android:hint="Spesial.V2"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_example2"
+                style="@style/MyTextInputEditText.Spesial.V2" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ed_example13_p"
+            style="@style/MyTextInputLayoutOutlinedBox.Spesial.V2.Grey"
+            android:hint="Spesial.V2.Grey"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_example13"
+                style="@style/MyTextInputEditText.Spesial.V2" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ed_example3_p"
+            style="@style/MyTextInputLayoutOutlinedBox.Spesial.V3"
+            android:hint="Spesial.V3"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_example3"
+                style="@style/MyTextInputEditText.Spesial.V3" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ed_example14_p"
+            style="@style/MyTextInputLayoutOutlinedBox.Spesial.V3.Grey"
+            android:hint="Spesial.V3.Grey"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_example14"
+                style="@style/MyTextInputEditText.Spesial.V3" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ed_example5_p"
+            style="@style/MyTextInputLayoutOutlinedBox.Spesial.V3.Search"
+            android:hint="Spesial.V3.Search"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_example5"
+                style="@style/MyTextInputEditText.Spesial.V3.Search" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ed_example15_p"
+            style="@style/MyTextInputLayoutOutlinedBox.Spesial.V3.Search.Grey"
+            android:hint="Spesial.V3.Search.Grey"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_example15"
+                style="@style/MyTextInputEditText.Spesial.V3.Search" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ed_example16_p"
+            style="@style/MyTextInputLayoutOutlinedBox.Spesial.V5"
+            android:hint="Spesial.V5"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_example16"
+                style="@style/MyTextInputEditText.Spesial.V5" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ed_example8_p"
+            style="@style/MyTextInputLayoutOutlinedBox.Spesial.V5.Grey"
+            android:hint="Spesial.V5"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_example8"
+                style="@style/MyTextInputEditText.Spesial.V5" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            style="@style/MyTextContent"
+            android:layout_marginTop="@dimen/def_margin"
+            android:text="MyAutoCompleteTextViewFilledBox" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ed_example10_p"
+            style="@style/MyAutoCompleteTextViewFilledBox.V1"
+            android:hint="V1">
+
+            <AutoCompleteTextView
+                android:id="@+id/ed_example10"
+                style="@style/MyAutoCompleteTextView.V1" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ed_example17_p"
+            style="@style/MyAutoCompleteTextViewFilledBox.V1.Grey"
+            android:hint="V1.Grey">
+
+            <AutoCompleteTextView
+                android:id="@+id/ed_example17"
+                style="@style/MyAutoCompleteTextView.V1" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ed_example6_p"
+            style="@style/MyAutoCompleteTextViewFilledBox.V2"
+            android:hint="V2">
+
+            <AutoCompleteTextView
+                android:id="@+id/ed_example6"
+                style="@style/MyAutoCompleteTextView.V2" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ed_example18_p"
+            style="@style/MyAutoCompleteTextViewFilledBox.V2.Grey"
+            android:hint="V2.Grey">
+
+            <AutoCompleteTextView
+                android:id="@+id/ed_example18"
+                style="@style/MyAutoCompleteTextView.V2" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ed_example7_p"
+            style="@style/MyAutoCompleteTextViewFilledBox.V3"
+            android:hint="V3">
+
+            <AutoCompleteTextView
+                android:id="@+id/ed_example7"
+                style="@style/MyAutoCompleteTextView.V3" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ed_example19_p"
+            style="@style/MyAutoCompleteTextViewFilledBox.V3.Grey"
+            android:hint="V3.Grey">
+
+            <AutoCompleteTextView
+                android:id="@+id/ed_example19"
+                style="@style/MyAutoCompleteTextView.V3" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/def_margin"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btn_set_error_parent"
+                style="@style/MyButtonContained"
+                android:text="Error Parent" />
+
+            <Button
+                android:id="@+id/btn_set_error_edit"
+                style="@style/MyButtonContained"
+                android:text="Error Edit" />
+
+            <View style="@style/EmptyContent" />
+
+            <Button
+                android:id="@+id/btn_clear_error"
+                style="@style/MyButtonContained"
+                android:text="Clear_error" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

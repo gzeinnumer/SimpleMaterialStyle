@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:ns1="http://schemas.android.com/apk/res-auto">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
@@ -278,12 +278,6 @@
         <item name="android:focusable">false</item>
     </style>
 
-    <style name="MyTextInputLayoutFilledBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/space_between_edittext_filled</item>
-    </style>
-
     <style name="MyTextInputLayoutFilledBox.Note" parent="MyTextInputLayoutFilledBox">
         <item name="counterEnabled">true</item>
         <item name="counterMaxLength">160</item>
@@ -337,8 +331,8 @@
         <item name="android:layout_width">wrap_content</item>
     </style>
 
+
     <style name="MyTextInputEditText" parent="BaseTextView">
-        <item name="android:textSize">@dimen/h4</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:alpha">1</item>
@@ -373,25 +367,6 @@
         <item name="android:layout_marginTop">@dimen/space_spinner_normal</item>
     </style>
     <!--revisi-->
-    <style name="MyAutoCompleteTextViewFilledBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/space</item>
-    </style>
-
-    <style name="MyAutoCompleteTextViewOutlineBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/space</item>
-    </style>
-
-    <style name="MyAutoCompleteTextView" parent="BaseTextView">
-        <item name="android:textSize">@dimen/h4</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:editable">false</item>
-        <item name="android:inputType">none</item>
-    </style>
 
     <style name="MyParentRadioGroup">
         <item name="android:layout_width">match_parent</item>
@@ -664,32 +639,61 @@
         <item name="android:textColor">@color/red_500</item>
     </style>
 
-    <style name="MyTextInputLayoutOutlinedBox.Spesial">
-        <item name="boxBackgroundColor">@android:color/transparent</item>
-        <item name="boxStrokeColor">@android:color/transparent</item>
-        <item name="android:background">@drawable/mygzn_text_input_layout</item>
-        <item name="boxStrokeWidth">0dp</item>
-        <item name="android:textColorHint">@color/mygzn_indicator_text_color</item>
-        <item name="boxStrokeWidthFocused">0dp</item>
-        <item name="hintTextColor">@color/mygzn_indicator_text_color_focused</item>
-    </style>
-
-    <style name="MyTextInputEditText.Spesial">
-        <item name="android:background">@drawable/mygzn_text_input_edittext</item>
-        <item name="android:layout_marginLeft">0.5dp</item>
-        <item name="android:layout_marginRight">0.5dp</item>
-        <item name="android:layout_marginBottom">0dp</item>
-    </style>
-
     <style name="Rounded_ShapeAppearanceOverlay.MaterialComponents.TextInputLayout" parent="">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">50%</item>
     </style>
 
-    <style name="MyTextInputLayoutOutlinedBox.Spesial.V2" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+    <style name="PhotoPickerT1">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColorHint">@color/mygzn_indicator_text_color</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="PhotoPickerT2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="PhotoPickerT3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/space</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
+        <item name="android:layout_marginLeft">@dimen/space_half</item>
+        <item name="android:layout_marginRight">@dimen/space_half</item>
+        <item name="cardCornerRadius">@dimen/radius</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="PhotoPickerT4">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/mygzn_pp_card_edge_purple</item>
+    </style>
+
+    <style name="PhotoPickerT5">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/def_margin_half</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="PhotoPickerT6">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:src">@drawable/mygzn_baseline_camera_alt_24</item>
+    </style>
+
+    <style name="MyTextContent.Background.White">
+        <item name="android:background">@drawable/shape_white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="MyTextInputLayoutOutlinedBox.Spesial" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="boxCornerRadiusBottomEnd">@dimen/radius</item>
         <item name="boxCornerRadiusBottomStart">@dimen/radius</item>
         <item name="boxCornerRadiusTopEnd">@dimen/radius</item>
@@ -699,35 +703,52 @@
         <item name="android:layout_marginTop">@dimen/space</item>
         <item name="shapeAppearanceOverlay">@style/Rounded_ShapeAppearanceOverlay.MaterialComponents.TextInputLayout</item>
         <item name="boxStrokeColor">@color/input_text_no_underline</item>
+    </style>
+
+    <style name="MyTextInputEditText.Spesial" parent="BaseTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/mygzn_text_input_edittext_3d_shadow_grey</item>
+    </style>
+
+    <style name="MyTextInputLayoutOutlinedBox.Spesial.V1">
+        <item name="android:textColorHint">@color/mygzn_indicator_text_color</item>
+        <item name="boxStrokeColor">@color/input_text_no_underline</item>
+    </style>
+
+    <style name="MyTextInputEditText.Spesial.V1">
+        <item name="android:background">@drawable/mygzn_text_input_edittext_3d_shadow_grey</item>
+    </style>
+
+    <style name="MyTextInputLayoutOutlinedBox.Spesial.V1.Grey">
+        <item name="android:textColorHint">@color/mygzn_indicator_text_grey</item>
+    </style>
+
+    <style name="MyTextInputLayoutOutlinedBox.Spesial.V2">
+        <item name="android:textColorHint">@color/mygzn_indicator_text_color</item>
         <item name="hintTextColor">@color/mygzn_indicator_text_color_focused</item>
     </style>
 
     <style name="MyTextInputEditText.Spesial.V2">
-        <item name="android:background">@drawable/mygzn_text_input_edittext_3d_shadow</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/mygzn_text_input_edittext_3d_shadow_primary</item>
     </style>
 
-    <style name="MyTextInputLayoutOutlinedBox.Spesial.V3" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
+    <style name="MyTextInputLayoutOutlinedBox.Spesial.V2.Grey">
+        <item name="android:textColorHint">@color/mygzn_indicator_text_grey</item>
+    </style>
+
+    <style name="MyTextInputLayoutOutlinedBox.Spesial.V3">
         <item name="android:textColorHint">@color/mygzn_indicator_text_color</item>
-        <item name="boxCornerRadiusBottomEnd">@dimen/radius</item>
-        <item name="boxCornerRadiusBottomStart">@dimen/radius</item>
-        <item name="boxCornerRadiusTopEnd">@dimen/radius</item>
-        <item name="boxCornerRadiusTopStart">@dimen/radius</item>
-        <item name="boxStrokeWidth">0dp</item>
-        <item name="boxStrokeWidthFocused">0dp</item>
-        <item name="android:layout_marginTop">@dimen/space</item>
-        <item name="shapeAppearanceOverlay">@style/Rounded_ShapeAppearanceOverlay.MaterialComponents.TextInputLayout</item>
         <item name="boxStrokeColor">@color/input_text_no_underline</item>
         <item name="hintTextColor">@color/mygzn_indicator_text_color_focused</item>
     </style>
 
     <style name="MyTextInputEditText.Spesial.V3">
         <item name="android:background">@drawable/mygzn_text_input_edittext_white</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MyTextInputLayoutOutlinedBox.Spesial.V3.Grey">
+        <item name="android:textColorHint">@color/mygzn_indicator_text_grey</item>
     </style>
 
     <style name="MyTextInputLayoutOutlinedBox.Spesial.V3.Search">
@@ -741,58 +762,106 @@
         <item name="backgroundTint">@color/white_low</item>
     </style>
 
-    <style name="MyAutoCompleteTextViewFilledBox.V2" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">
+    <style name="MyTextInputLayoutOutlinedBox.Spesial.V3.Search.Grey">
+        <item name="android:textColorHint">@color/mygzn_indicator_text_grey</item>
+    </style>
+
+    <style name="MyTextInputLayoutOutlinedBox.Spesial.V5">
+        <item name="android:textColorHint">@color/mygzn_indicator_text_color</item>
+        <item name="boxStrokeColor">@color/input_text_no_underline</item>
+    </style>
+
+    <style name="MyTextInputEditText.Spesial.V5">
+        <item name="android:background">@drawable/mygzn_text_input_edittext_3d_shadow_grey_dark</item>
+    </style>
+
+    <style name="MyTextInputLayoutOutlinedBox.Spesial.V5.Grey">
+        <item name="android:textColorHint">@color/mygzn_indicator_text_grey</item>
+    </style>
+
+    <style name="MyTextInputLayoutOutlinedBox.Spesial.V6">
+        <item name="boxStrokeColor">@color/input_text_no_underline</item>
+    </style>
+
+    <style name="MyTextInputEditText.Spesial.V6">
+        <item name="android:background">@drawable/mygzn_text_input_edittext_3d_shadow_grey</item>
+    </style>
+
+    <style name="MyAutoCompleteTextViewFilledBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:background">@drawable/mygzn_text_input_edittext_3d_shadow</item>
-        <item name="android:textColorHint">@color/mygzn_indicator_text_color</item>
+        <item name="android:layout_marginTop">@dimen/space</item>
         <item name="boxCornerRadiusBottomEnd">@dimen/radius</item>
         <item name="boxCornerRadiusBottomStart">@dimen/radius</item>
         <item name="boxCornerRadiusTopEnd">@dimen/radius</item>
         <item name="boxCornerRadiusTopStart">@dimen/radius</item>
-        <item name="boxStrokeColor">@color/input_text_no_underline</item>
         <item name="boxStrokeWidth">0dp</item>
-        <item name="android:layout_marginTop">@dimen/space</item>
         <item name="boxStrokeWidthFocused">0dp</item>
-        <item name="shapeAppearanceOverlay">@style/Rounded_ShapeAppearanceOverlay.MaterialComponents.TextInputLayout</item>
-        <item name="hintTextColor">@color/mygzn_indicator_text_color_focused</item>
-    </style>
-
-    <style name="MyAutoCompleteTextView.V2" parent="BaseTextView">
-        <item name="android:textSize">@dimen/h4</item>
-        <item name="android:textColor">@color/text_content</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:editable">false</item>
-        <item name="android:inputType">none</item>
-        <item name="android:backgroundTint" tools:targetApi="lollipop">@android:color/transparent</item>
-        <item name="backgroundTint">@android:color/transparent</item>
-    </style>
-    <style name="MyAutoCompleteTextViewFilledBox.V3" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">
-        <item name="android:layout_marginTop">@dimen/space</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@drawable/mygzn_text_input_edittext_white</item>
-        <item name="android:textColorHint">@color/mygzn_indicator_text_color</item>
-        <item name="boxCornerRadiusBottomEnd">@dimen/radius</item>
-        <item name="boxCornerRadiusBottomStart">@dimen/radius</item>
-        <item name="boxCornerRadiusTopEnd">@dimen/radius</item>
-        <item name="boxCornerRadiusTopStart">@dimen/radius</item>
-        <item name="boxStrokeColor">@color/input_text_no_underline</item>
-        <item name="boxStrokeWidth">0dp</item>
-        <item name="boxStrokeWidthFocused">0dp</item>
         <item name="shapeAppearanceOverlay">@style/Rounded_ShapeAppearanceOverlay.MaterialComponents.TextInputLayout</item>
-        <item name="hintTextColor">@color/mygzn_indicator_text_color_focused</item>
     </style>
 
-    <style name="MyAutoCompleteTextView.V3" parent="BaseTextView">
-        <item name="android:textSize">@dimen/h4</item>
-        <item name="android:textColor">@color/text_content</item>
+    <style name="MyAutoCompleteTextView" parent="BaseTextView">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:editable">false</item>
         <item name="android:inputType">none</item>
+        <item name="android:textColor">@color/text_content</item>
+        <item name="android:background">@drawable/mygzn_text_input_edittext_white</item>
         <item name="android:backgroundTint" tools:targetApi="lollipop">@android:color/transparent</item>
         <item name="backgroundTint">@android:color/transparent</item>
     </style>
+
+    <style name="MyAutoCompleteTextViewFilledBox.V1">
+        <item name="android:textColorHint">@color/mygzn_indicator_text_color</item>
+        <item name="hintTextColor">@color/mygzn_indicator_text_color_focused</item>
+    </style>
+
+    <style name="MyAutoCompleteTextView.V1">
+        <item name="android:background">@drawable/mygzn_text_input_edittext_3d_shadow_grey</item>
+    </style>
+
+    <style name="MyAutoCompleteTextViewFilledBox.V1.Grey">
+        <item name="android:textColorHint">@color/mygzn_indicator_text_grey</item>
+    </style>
+
+    <style name="MyAutoCompleteTextViewFilledBox.V2">
+        <item name="android:background">@drawable/mygzn_text_input_edittext_3d_shadow_primary</item>
+        <item name="android:textColorHint">@color/mygzn_indicator_text_color</item>
+        <item name="hintTextColor">@color/mygzn_indicator_text_color_focused</item>
+    </style>
+
+    <style name="MyAutoCompleteTextView.V2">
+    </style>
+
+    <style name="MyAutoCompleteTextViewFilledBox.V2.Grey">
+        <item name="android:textColorHint">@color/mygzn_indicator_text_grey</item>
+    </style>
+
+    <style name="MyAutoCompleteTextViewFilledBox.V3">
+        <item name="android:textColorHint">@color/mygzn_indicator_text_color</item>
+        <item name="boxStrokeColor">@color/input_text_no_underline</item>
+        <item name="hintTextColor">@color/mygzn_indicator_text_color_focused</item>
+    </style>
+
+    <style name="MyAutoCompleteTextView.V3">
+
+    </style>
+
+    <style name="MyAutoCompleteTextViewFilledBox.V3.Grey">
+        <item name="android:textColorHint">@color/mygzn_indicator_text_grey</item>
+    </style>
+
+    <style name="MyTextInputLayoutFilledBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/space_between_edittext_filled</item>
+    </style>
+
+    <style name="MyTextInputLayoutFilledBox.V1" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/space_between_edittext_filled</item>
+    </style>
+
 </resources>

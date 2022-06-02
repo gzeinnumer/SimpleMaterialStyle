@@ -1,226 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fillViewport="true">
+    android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/purple_700"
-        android:gravity="center"
-        android:orientation="vertical"
-        tools:context=".MainActivity">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                style="@style/MyCostumToolbarTitle"
-                android:layout_weight="0"
-                android:text="MyCostumToolbarTitle" />
-
-            <TextView
-                style="@style/MyCostumToolbarMenus"
-                android:text="MyCostumToolbarMenus" />
-
-        </LinearLayout>
-
-        <TextView
-            style="@style/MyTopHeader"
-            android:text="MyTopHeader" />
-
-        <TextView
-            style="@style/MyTopHeaderCardEdge"
-            android:text="MyTopHeaderCardEdge" />
-
-        <View
-            style="@style/MyDivider"
-            android:layout_margin="@dimen/def_margin_half" />
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fillViewport="true">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-            <TextView
-                style="@style/MyTextHeader.Small"
-                android:layout_marginTop="0dp"
-                android:text="MyTextHeader.Small" />
+            <LinearLayout
+                android:gravity="center"
+                style="@style/MyParentType">
 
-            <TextView
-                style="@style/MyTextHeader"
-                android:layout_marginTop="0dp"
-                android:text="MyTextHeader" />
+                <Button
+                    android:id="@+id/btn_button"
+                    style="@style/MyButtonContained"
+                    android:text="Button" />
 
-            <TextView
-                style="@style/MyTextHeader.Big"
-                android:layout_marginTop="0dp"
-                android:text="MyTextHeader.Big" />
+                <Button
+                    android:id="@+id/btn_textview"
+                    style="@style/MyButtonContained"
+                    android:text="TextView" />
 
+                <Button
+                    android:id="@+id/btn_edittext"
+                    style="@style/MyButtonContained"
+                    android:text="EditText" />
+
+            </LinearLayout>
         </LinearLayout>
-
-        <View
-            style="@style/MyDivider"
-            android:layout_margin="@dimen/def_margin_half" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center">
-
-            <TextView
-                style="@style/MyTextContent.Small.Very"
-                android:text="MyTextContent.Small.Very" />
-
-            <TextView
-                style="@style/MyTextContent.Small"
-                android:text="MyTextContent.Small" />
-
-            <TextView
-                style="@style/MyTextContent"
-                android:text="MyTextContent" />
-        </LinearLayout>
-
-        <View
-            style="@style/MyDivider"
-            android:layout_margin="@dimen/def_margin_half" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center">
-
-            <TextView
-                style="@style/MyTextContent.Grey"
-                android:text="MyTextContent.Grey" />
-
-            <TextView
-                style="@style/MyTextContent.Grey.Light"
-                android:text="MyTextContent.Grey.Light" />
-        </LinearLayout>
-
-        <View
-            style="@style/MyDivider"
-            android:layout_margin="@dimen/def_margin_half" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <TextView
-                style="@style/MyTextContent.Small.Grey.Light"
-                android:text="MyTextContent.Small.Grey.Light" />
-
-            <TextView
-                android:id="@+id/tv_nama"
-                style="@style/MyTextContent"
-                android:text="MyTextContent" />
-        </LinearLayout>
-
-        <View
-            style="@style/MyDivider"
-            android:layout_margin="@dimen/def_margin_half" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center">
-
-            <TextView
-                style="@style/MyTextContent"
-                android:text="MyTextContent"
-                android:textColor="#F44336" />
-
-            <TextView
-                style="@style/MyTextContent"
-                android:text="MyTextContent"
-                android:textColor="#00C853" />
-
-            <TextView
-                style="@style/MyTextContent"
-                android:text="MyTextContent"
-                android:textColor="#2196F3" />
-
-        </LinearLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/ed_username_p"
-            style="@style/MyTextInputLayoutOutlinedBox.Spesial"
-            android:layout_marginLeft="@dimen/def_margin"
-            android:layout_marginTop="@dimen/def_margin"
-            android:layout_marginRight="@dimen/def_margin"
-            android:hint="Username">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/ed_username"
-                style="@style/MyTextInputEditText.Spesial" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/MyTextInputLayoutOutlinedBox.Spesial.V2"
-            android:layout_marginLeft="@dimen/def_margin"
-            android:layout_marginTop="@dimen/def_margin"
-            android:layout_marginRight="@dimen/def_margin"
-            android:hint="Label"
-            app:endIconMode="clear_text">
-
-            <com.google.android.material.textfield.TextInputEditText style="@style/MyTextInputEditText.Spesial.V2" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/MyTextInputLayoutOutlinedBox.Spesial.V3"
-            android:layout_marginLeft="@dimen/def_margin"
-            android:layout_marginTop="@dimen/def_margin"
-            android:layout_marginRight="@dimen/def_margin"
-            android:hint="Label"
-            app:endIconMode="clear_text">
-
-            <com.google.android.material.textfield.TextInputEditText style="@style/MyTextInputEditText.Spesial.V3" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/MyAutoCompleteTextViewFilledBox.V2"
-            android:layout_marginLeft="@dimen/def_margin"
-            android:layout_marginTop="@dimen/def_margin"
-            android:layout_marginRight="@dimen/def_margin"
-            android:hint="Label">
-
-            <AutoCompleteTextView
-                android:id="@+id/act"
-                style="@style/MyAutoCompleteTextView.V2" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/MyAutoCompleteTextViewFilledBox.V3"
-            android:layout_marginLeft="@dimen/def_margin"
-            android:layout_marginTop="@dimen/def_margin"
-            android:layout_marginRight="@dimen/def_margin"
-            android:hint="Label">
-
-            <AutoCompleteTextView
-                android:id="@+id/act2"
-                style="@style/MyAutoCompleteTextView.V3" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/MyTextInputLayoutOutlinedBox.Spesial.V3.Search"
-            android:layout_marginLeft="@dimen/def_margin"
-            android:layout_marginTop="@dimen/def_margin"
-            android:layout_marginRight="@dimen/def_margin"
-            android:hint="Label"
-            app:endIconMode="clear_text">
-
-            <com.google.android.material.textfield.TextInputEditText style="@style/MyTextInputEditText.Spesial.V3.Search" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-    </LinearLayout>
-</androidx.core.widget.NestedScrollView>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

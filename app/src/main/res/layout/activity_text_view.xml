@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="@dimen/def_margin"
+    android:background="@color/colorPrimary_30"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/MyCostumToolbarTitle"
+        android:layout_weight="0"
+        android:text="MyCostumToolbarTitle" />
+
+    <TextView
+        style="@style/MyCostumToolbarMenus"
+        android:text="MyCostumToolbarMenus" />
+
+    <TextView
+        style="@style/MyTopHeader"
+        android:text="MyTopHeader" />
+
+    <TextView
+        style="@style/MyTopHeaderCardEdge"
+        android:text="MyTopHeaderCardEdge" />
+
+    <TextView
+        style="@style/MyTextHeader.Small"
+        android:layout_marginTop="0dp"
+        android:text="MyTextHeader.Small" />
+
+    <TextView
+        style="@style/MyTextHeader"
+        android:layout_marginTop="0dp"
+        android:text="MyTextHeader" />
+
+    <TextView
+        style="@style/MyTextHeader.Big"
+        android:layout_marginTop="0dp"
+        android:text="MyTextHeader.Big" />
+
+
+    <TextView
+        style="@style/MyTextContent.Small.Very"
+        android:text="MyTextContent.Small.Very" />
+
+    <TextView
+        style="@style/MyTextContent.Small"
+        android:text="MyTextContent.Small" />
+
+    <TextView
+        style="@style/MyTextContent"
+        android:text="MyTextContent" />
+
+    <TextView
+        style="@style/MyTextContent.Grey"
+        android:text="MyTextContent.Grey" />
+
+    <TextView
+        style="@style/MyTextContent.Grey.Light"
+        android:text="MyTextContent.Grey.Light" />
+
+    <TextView
+        style="@style/MyTextContent.Small.Grey.Light"
+        android:text="MyTextContent.Small.Grey.Light" />
+
+    <TextView
+        android:id="@+id/tv_nama"
+        style="@style/MyTextContent"
+        android:text="MyTextContent" />
+
+    <TextView
+        style="@style/MyTextContent"
+        android:text="MyTextContent"
+        android:textColor="#F44336" />
+
+    <TextView
+        style="@style/MyTextContent"
+        android:text="MyTextContent"
+        android:textColor="#00C853" />
+
+    <TextView
+        style="@style/MyTextContent"
+        android:text="MyTextContent"
+        android:textColor="#2196F3" />
+
+</LinearLayout>
