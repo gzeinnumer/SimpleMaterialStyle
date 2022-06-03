@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/rg_example1"
+        style="@style/MyRadioGroup"
+        android:orientation="vertical"
+        android:checkedButton="@+id/rb_first">
+
+        <RadioButton
+            android:id="@+id/rb_first"
+            style="@style/MyRadioButton"
+            android:text="MyRadioButton" />
+
+        <RadioButton
+            android:id="@+id/rb_second"
+            style="@style/MyRadioButton"
+            android:text="MyRadioButton" />
+    </RadioGroup>
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/cb_1"
+        android:layout_marginTop="@dimen/def_margin"
+        style="@style/MyCheckBox"
+        android:text="MyCheckBox" />
+</LinearLayout>

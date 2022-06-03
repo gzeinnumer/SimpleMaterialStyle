@@ -262,6 +262,56 @@
         <item name="android:textColor">@color/grey_light_text</item>
     </style>
 
+
+    <style name="MyTextContent.Background">
+        <item name="android:paddingStart">@dimen/space_half</item>
+        <item name="android:paddingLeft">@dimen/space_half</item>
+        <item name="android:paddingEnd">@dimen/space_half</item>
+        <item name="android:paddingRight">@dimen/space_half</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MyTextContent.Background.GreenLow">
+        <item name="android:background">@drawable/shape_green_low</item>
+        <item name="android:textColor">@color/green_A700</item>
+    </style>
+
+    <style name="MyTextContent.Background.RedLow">
+        <item name="android:background">@drawable/shape_red_low</item>
+        <item name="android:textColor">@color/red_500</item>
+    </style>
+
+    <style name="MyTextContent.Background.White">
+        <item name="android:background">@drawable/shape_white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="MyTextContent.Background.RedCount">
+        <item name="android:background">@drawable/mygzn_shape_red_count</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/h5.1</item>
+    </style>
+
+    <style name="MyTextContent.Background.YellowCount">
+        <item name="android:background">@drawable/mygzn_shape_yellow_count</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MyTextContent.Background.OrangeLow">
+        <item name="android:background">@drawable/mygzn_shape_orange_low</item>
+        <item name="android:textColor">@color/orange_500</item>
+    </style>
+
+    <style name="MyTextContent.Background.YellowLow">
+        <item name="android:background">@drawable/mygzn_shape_yellow_low</item>
+        <item name="android:textColor">@color/yellow_800</item>
+    </style>
+
+    <style name="MyTextContent.Background.Black">
+        <item name="android:background">@drawable/mygzn_shape_black</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
     <style name="MyTextInputLayoutOutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -388,7 +438,6 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/space_radio_button</item>
         <item name="android:orientation">vertical</item>
-        <item name="android:layout_weight">1</item>
         <item name="android:paddingLeft">-5dp</item>
     </style>
 
@@ -549,6 +598,23 @@
         <item name="android:src">@drawable/mygzn_image_preview_icon</item>
     </style>
 
+    <style name="MyImageFotoPreviewParent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="cardBackgroundColor">@color/white_low_v2</item>
+        <item name="cardCornerRadius">@dimen/radius</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="MyImageFotoPreviewChild">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:src">@drawable/mygzn_ic_no_image</item>
+    </style>
+
     <style name="MySpinner" parent="BaseTextView">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -621,24 +687,6 @@
         <item name="android:background">@drawable/mygzn_background_filled_white_radius_v2</item>
     </style>
 
-    <style name="MyTextContent.Background">
-        <item name="android:paddingStart">@dimen/space_half</item>
-        <item name="android:paddingLeft">@dimen/space_half</item>
-        <item name="android:paddingEnd">@dimen/space_half</item>
-        <item name="android:paddingRight">@dimen/space_half</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="MyTextContent.Background.GreenLow">
-        <item name="android:background">@drawable/shape_green_low</item>
-        <item name="android:textColor">@color/green_A700</item>
-    </style>
-
-    <style name="MyTextContent.Background.RedLow">
-        <item name="android:background">@drawable/shape_red_low</item>
-        <item name="android:textColor">@color/red_500</item>
-    </style>
-
     <style name="Rounded_ShapeAppearanceOverlay.MaterialComponents.TextInputLayout" parent="">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">50%</item>
@@ -684,11 +732,6 @@
         <item name="android:layout_width">30dp</item>
         <item name="android:layout_height">30dp</item>
         <item name="android:src">@drawable/mygzn_baseline_camera_alt_24</item>
-    </style>
-
-    <style name="MyTextContent.Background.White">
-        <item name="android:background">@drawable/shape_white</item>
-        <item name="android:textColor">@color/black</item>
     </style>
 
     <style name="MyTextInputLayoutOutlinedBox.Spesial" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">

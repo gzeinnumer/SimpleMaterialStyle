@@ -3,7 +3,7 @@
 </h1>
 
 <div align="center">
-    <a><img src="https://img.shields.io/badge/Version-2.3.3-brightgreen.svg?style=flat"></a>
+    <a><img src="https://img.shields.io/badge/Version-2.3.4-brightgreen.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/ID-gzeinnumer-blue.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/Java-Suport-green?logo=java&style=flat"></a>
     <a><img src="https://img.shields.io/badge/kotlin-Suport-green?logo=kotlin&style=flat"></a>
@@ -14,8 +14,8 @@
 
 ---
 
-|![](https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/example1.jpg)|![](https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/example2.jpg)|![](https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/example3.jpg)|![](https://github.com/gzeinnumer/TextInputLayoutStyle/blob/master/preview/preview_1.png)|![](assets/example4.jpg)|
-|--|--|--|--|--|
+|![](assets/example1.jpg)|![](assets/example2.jpg)|![](assets/example3.jpg)|![](https://github.com/gzeinnumer/TextInputLayoutStyle/blob/master/preview/preview_1.png)|![](assets/example4.jpg)|![](assets/example5.png)|
+|--|--|--|--|--|--|
 |Version 2.2.3|Version 2.2.3|Version 2.2.3|Version 2.3.0++ [ReadMore](https://github.com/gzeinnumer/TextInputLayoutStyle)|TextInputLayout|
 
 ---
@@ -169,7 +169,7 @@ Own Custom :
 ```
 Preview:
 
-|<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/2.MyTextContent_3.jpg" width="400"/>|<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/2.MyTextContent_2.jpg" width="400"/>|
+|<img src="assets/2.MyTextContent_3.jpg" width="400"/>|<img src="assets/2.MyTextContent_2.jpg" width="400"/>|
 |--|--|
 |Default|Custom|
 
@@ -210,7 +210,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/_1.MyCustomToolbarTitle.jpg" width="400"/>
+<img src="assets/_1.MyCustomToolbarTitle.jpg" width="400"/>
 </p>
 
 #
@@ -224,7 +224,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/_1.MyTopHeader.jpg" width="400"/>
+<img src="assets/_1.MyTopHeader.jpg" width="400"/>
 </p>
 
 #
@@ -237,7 +237,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/1.MyTextHeader.jpg" width="400"/>
+<img src="assets/1.MyTextHeader.jpg" width="400"/>
 </p>
 
 #
@@ -250,7 +250,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/2.MyTextContent.jpg" width="400"/>
+<img src="assets/2.MyTextContent.jpg" width="400"/>
 </p>
 
 #
@@ -271,7 +271,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/3.MyTextIputLayoutOutlinedBox_Pass.jpg" width="400"/>
+<img src="assets/3.MyTextIputLayoutOutlinedBox_Pass.jpg" width="400"/>
 </p>
 
 #
@@ -290,7 +290,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/4.MyTextIputLayoutOutlinedBoxNext.jpg" width="400"/>
+<img src="assets/4.MyTextIputLayoutOutlinedBoxNext.jpg" width="400"/>
 </p>
 
 #
@@ -310,7 +310,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/5.MyTextIputLayoutOutlinedBoxNext_Man.jpg" width="400"/>
+<img src="assets/5.MyTextIputLayoutOutlinedBoxNext_Man.jpg" width="400"/>
 </p>
 
 #
@@ -329,7 +329,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/6.MyTextIputLayoutFilledBox.jpg" width="400"/>
+<img src="assets/6.MyTextIputLayoutFilledBox.jpg" width="400"/>
 </p>
 
 #
@@ -349,7 +349,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/7.MyTextIputLayoutFilledBoxNext_Icon.jpg" width="400"/>
+<img src="assets/7.MyTextIputLayoutFilledBoxNext_Icon.jpg" width="400"/>
 </p>
 
 #
@@ -373,7 +373,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/8.MyTextIputLayoutOutlinedBoxNext_Helper.jpg" width="400"/>
+<img src="assets/8.MyTextIputLayoutOutlinedBoxNext_Helper.jpg" width="400"/>
 </p>
 
 #
@@ -393,7 +393,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/9.MyTextIputLayoutFilledBox_Man.jpg" width="400"/>
+<img src="assets/9.MyTextIputLayoutFilledBox_Man.jpg" width="400"/>
 </p>
 
 #
@@ -413,7 +413,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/10.MyButtonOutlined.jpg" width="400"/>
+<img src="assets/10.MyButtonOutlined.jpg" width="400"/>
 </p>
 
 #
@@ -433,7 +433,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/11.MyButtonText.jpg" width="400"/>
+<img src="assets/11.MyButtonText.jpg" width="400"/>
 </p>
 
 #
@@ -453,7 +453,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/12.MyButtonContained.jpg" width="400"/>
+<img src="assets/12.MyButtonContained.jpg" width="400"/>
 </p>
 
 #
@@ -474,7 +474,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/13.MyButtonIcon.jpg" width="400"/>
+<img src="assets/13.MyButtonIcon.jpg" width="400"/>
 </p>
 
 #
@@ -500,11 +500,11 @@ material_spinner_1.setAdapter(myAdapter)
 
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox.jpg" width="400"/>
+<img src="assets/14.MyAutoCompleteTextViewFilledBox.jpg" width="400"/>
 </p>
 
 OnClick:
-|<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox_Example.jpg" width="400"/>|<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/14.MyAutoCompleteTextViewFilledBox_Example_2.jpg" width="400"/>|
+|<img src="assets/14.MyAutoCompleteTextViewFilledBox_Example.jpg" width="400"/>|<img src="assets/14.MyAutoCompleteTextViewFilledBox_Example_2.jpg" width="400"/>|
 |--|--|
 
 #
@@ -530,12 +530,12 @@ material_spinner_2.setAdapter(myAdapter)
 
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/15.MyAutoCompleteTextViewOutlinedBox.jpg" width="400"/>
+<img src="assets/15.MyAutoCompleteTextViewOutlinedBox.jpg" width="400"/>
 </p>
 
 OnClick:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/15.MyAutoCompleteTextViewOutlinedBox_Example.jpg" width="400"/>
+<img src="assets/15.MyAutoCompleteTextViewOutlinedBox_Example.jpg" width="400"/>
 </p>
 
 #
@@ -567,12 +567,12 @@ material_spinner_4.adapter = myAdapter
 
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/16.Dialog.jpg" width="400"/>
+<img src="assets/16.Dialog.jpg" width="400"/>
 </p>
 
 OnClick:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/16.Dialog_Example.jpg" width="400"/>
+<img src="assets/16.Dialog_Example.jpg" width="400"/>
 </p>
 
 #
@@ -604,7 +604,7 @@ material_spinner_5.adapter = myAdapter
 
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/17.Dropdown.jpg" width="400"/>
+<img src="assets/17.Dropdown.jpg" width="400"/>
 </p>
 
 #
@@ -630,7 +630,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/18.TextRequired.jpg" width="400"/>
+<img src="assets/18.TextRequired.jpg" width="400"/>
 </p>
 
 #
@@ -681,7 +681,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/19.TakeFoto.jpg" width="400"/>
+<img src="assets/19.TakeFoto.jpg" width="400"/>
 </p>
 
 #
@@ -704,7 +704,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/20.IconImage.jpg" width="400"/>
+<img src="assets/20.IconImage.jpg" width="400"/>
 </p>
 
 #
@@ -715,7 +715,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/21.MyDivider.jpg" width="400"/>
+<img src="assets/21.MyDivider.jpg" width="400"/>
 </p>
 
 #
@@ -740,7 +740,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/23.MyRadioButton.jpg" width="400"/>
+<img src="assets/23.MyRadioButton.jpg" width="400"/>
 </p>
 
 #
@@ -770,7 +770,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/24.MyRadioButton_Horizontal.jpg" width="400"/>
+<img src="assets/24.MyRadioButton_Horizontal.jpg" width="400"/>
 </p>
 
 #
@@ -814,7 +814,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/25.MyRadioButton_Horizontal_Title.jpg" width="400"/>
+<img src="assets/25.MyRadioButton_Horizontal_Title.jpg" width="400"/>
 </p>
 
 #
@@ -832,7 +832,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/26.MyTextEditText.jpg" width="400"/>
+<img src="assets/26.MyTextEditText.jpg" width="400"/>
 </p>
 
 #
@@ -856,7 +856,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/28.MyEditText_Horizontal.jpg" width="400"/>
+<img src="assets/28.MyEditText_Horizontal.jpg" width="400"/>
 </p>
 
 #
@@ -873,7 +873,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/29.MyCheckBoxText.jpg" width="400"/>
+<img src="assets/29.MyCheckBoxText.jpg" width="400"/>
 </p>
 
 #
@@ -894,7 +894,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/31.MyCheckBox_Horizontal.jpg" width="400"/>
+<img src="assets/31.MyCheckBox_Horizontal.jpg" width="400"/>
 </p>
 
 #
@@ -915,7 +915,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/31.MyCheckBox_Horizontal.jpg" width="400"/>
+<img src="assets/31.MyCheckBox_Horizontal.jpg" width="400"/>
 </p>
 
 #
@@ -929,7 +929,7 @@ Preview:
 ```
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/32.ButtonNav.jpg" width="400"/>
+<img src="assets/32.ButtonNav.jpg" width="400"/>
 </p>
 
 #
@@ -1011,7 +1011,7 @@ btn_popup.setOnClickListener {
 
 Preview:
 <p align="center">
-<img src="https://github.com/gzeinnumer/SimpleMaterialStyle/blob/master/assets/33.MyParentTypeCardEdge.jpg" width="400"/>
+<img src="assets/33.MyParentTypeCardEdge.jpg" width="400"/>
 </p>
 
 ---
@@ -1057,6 +1057,10 @@ Preview:
   - TextInputLayout Focus Hint Color
 - **2.3.3**
   - SearchViewDialog 3.1.2
+- **2.3.4**
+  - More Simple
+- **2.3.5**
+  - ImageView
 
 ---
 

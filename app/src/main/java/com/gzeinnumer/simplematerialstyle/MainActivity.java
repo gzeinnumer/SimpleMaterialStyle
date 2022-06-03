@@ -1,7 +1,6 @@
 package com.gzeinnumer.simplematerialstyle;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.ViewModelProvider;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +8,8 @@ import android.os.Bundle;
 import com.gzeinnumer.simplematerialstyle.databinding.ActivityMainBinding;
 import com.gzeinnumer.simplematerialstyle.example.ButtonActivity;
 import com.gzeinnumer.simplematerialstyle.example.EditTextActivity;
+import com.gzeinnumer.simplematerialstyle.example.ImageViewActivity;
+import com.gzeinnumer.simplematerialstyle.example.SelectionActivity;
 import com.gzeinnumer.simplematerialstyle.example.TextViewActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -36,6 +37,14 @@ public class MainActivity extends AppCompatActivity {
         });
         binding.btnEdittext.setOnClickListener(view -> {
             Intent intent = new Intent(getApplicationContext(), EditTextActivity.class);
+            startActivity(intent);
+        });
+        binding.btnImageview.setOnClickListener(view -> {
+            Intent intent = new Intent(getApplicationContext(), ImageViewActivity.class);
+            startActivity(intent);
+        });
+        binding.btnSelection.setOnClickListener(view -> {
+            Intent intent = new Intent(getApplicationContext(), SelectionActivity.class);
             startActivity(intent);
         });
 

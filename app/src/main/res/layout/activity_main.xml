@@ -21,8 +21,11 @@
             android:orientation="vertical">
 
             <LinearLayout
+                android:layout_marginTop="@dimen/def_margin"
                 android:gravity="center"
-                style="@style/MyParentType">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/MyParentTypeCardEdge">
 
                 <Button
                     android:id="@+id/btn_button"
@@ -38,6 +41,16 @@
                     android:id="@+id/btn_edittext"
                     style="@style/MyButtonContained"
                     android:text="EditText" />
+
+                <Button
+                    android:id="@+id/btn_imageview"
+                    style="@style/MyButtonContained"
+                    android:text="ImageView" />
+
+                <Button
+                    android:id="@+id/btn_selection"
+                    style="@style/MyButtonContained"
+                    android:text="Selection" />
 
             </LinearLayout>
         </LinearLayout>

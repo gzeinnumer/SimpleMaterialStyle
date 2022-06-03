@@ -10,4 +10,13 @@
     <ImageView
         android:id="@+id/img_test"
         style="@style/MyImageFotoPreview" />
+
+    <androidx.cardview.widget.CardView
+        style="@style/MyImageFotoPreviewParent">
+
+        <ImageView
+            style="@style/MyImageFotoPreviewChild"
+            android:id="@+id/img"
+            android:maxHeight="150dp" />
+    </androidx.cardview.widget.CardView>
 </LinearLayout>

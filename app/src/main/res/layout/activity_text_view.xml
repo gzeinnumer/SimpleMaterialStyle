@@ -86,4 +86,41 @@
         android:text="MyTextContent"
         android:textColor="#2196F3" />
 
+    <TextView
+        style="@style/MyTextContent.Background"
+        android:text="MyTextContent.Background" />
+
+    <TextView
+        style="@style/MyTextContent.Background.Black"
+        android:text="MyTextContent.Background.Black" />
+
+    <TextView
+        style="@style/MyTextContent.Background.GreenLow"
+        android:text="MyTextContent.Background.GreenLow"/>
+
+    <TextView
+        style="@style/MyTextContent.Background.OrangeLow"
+        android:text="MyTextContent.Background.OrangeLow" />
+
+    <TextView
+        style="@style/MyTextContent.Background.RedCount"
+        android:text="MyTextContent.Background.RedCount" />
+
+    <TextView
+        style="@style/MyTextContent.Background.RedLow"
+        android:text="MyTextContent.Background.RedLow" />
+
+    <TextView
+        style="@style/MyTextContent.Background.White"
+        android:text="MyTextContent.Background.White" />
+
+    <TextView
+        style="@style/MyTextContent.Background.YellowCount"
+        android:text="MyTextContent.Background.YellowCount" />
+
+    <TextView
+        style="@style/MyTextContent.Background.YellowLow"
+        android:text="MyTextContent.Background.YellowLow" />
+
+
 </LinearLayout>

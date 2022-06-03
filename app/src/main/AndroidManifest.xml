@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SimpleMaterialStyle">
         <activity
-            android:name=".example.PhotoActivity"
+            android:name=".example.SelectionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".example.ImageViewActivity"
             android:exported="true" />
         <activity
             android:name=".example.EditTextActivity"
