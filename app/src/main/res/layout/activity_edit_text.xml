@@ -206,6 +206,27 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ed_example20_p"
+            style="@style/MyAutoCompleteTextViewFilledBox.V5"
+            android:hint="V5">
+
+            <AutoCompleteTextView
+                android:id="@+id/ed_example20"
+                style="@style/MyAutoCompleteTextView.V5" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ed_example21_p"
+            style="@style/MyAutoCompleteTextViewFilledBox.V5.Grey"
+            android:hint="V5.Grey">
+
+            <AutoCompleteTextView
+                android:id="@+id/ed_example21"
+                style="@style/MyAutoCompleteTextView.V5" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
